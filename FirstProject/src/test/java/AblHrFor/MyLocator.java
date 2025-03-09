@@ -18,9 +18,9 @@ public class MyLocator {
 	    driver.get("https://ablhr.akijbakers.io/auth/login");
 	    driver.manage().window().maximize();
 	    Thread.sleep(3000);
-	    driver.findElement(By.name("username")).sendKeys("rezvi.abl@akij.net");
+	    driver.findElement(By.name("username")).sendKeys("@akij.net");
 	    Thread.sleep(3000);
-	    driver.findElement(By.name("password")).sendKeys("Akij@12345");
+	    driver.findElement(By.name("password")).sendKeys("***");
 	    Thread.sleep(3000);
 	    driver.findElement(By.id("kt_login_signin_submit")).click();
 	    Thread.sleep(3000);
