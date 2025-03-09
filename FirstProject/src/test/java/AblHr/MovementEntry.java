@@ -13,7 +13,7 @@ public class MovementEntry {
 	
 	WebDriverManager.chromedriver().setup();
     WebDriver driver = new ChromeDriver();
-    driver.get("https://ablhr.akijbakers.io/auth/login");
+    driver.get("https://.io/auth/login");
     driver.manage().window().maximize();
     Thread.sleep(2000);
     driver.quit();
